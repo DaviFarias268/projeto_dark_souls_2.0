@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "dark";
+    src: url(fontes/RINGM___.TTF);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    max-width: 100%;
+    
+
+}
+     header{
+     text-align: center;
+     background-color: black;
+     padding: 30px;
+     }
+
+nav{
+background-color: black;
+    padding: 1%;
+    text-align: center;
+    font-family: "dark";
+  }
+
+  nav a {
+    color: rgb(255, 248, 248);
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    font-family: "dark";
+  }
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown:hover{
+    padding: 5px;
+    transition-duration: 0.5s;
+    border-radius: 2px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #313131;
+  }
+
+  .dropdown-content a {
+    color: rgb(255, 251, 251);
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    
+  }
+  .dropdown-content a:hover{
+    background-color: black;
+  }
+
+
+  .dropdown:hover .dropdown-content {
+    display: block; 
+    }
+
+    section{
+        background-image: url(imagens_dark_souls_2/fumaça.gif);
+        background-attachment: fixed;
+        background-blend-mode:multiply;
+        background-color: #5f5d5d;
+    padding: 5%;
+
+
+    }
+    article{
+        
+       background-color: rgba(255, 255, 255, 0.26);
+        margin: 20px;
+        padding: 13px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    
+    }
+    p{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    text-indent: 1.4em;
+    font-style: italic;
+
+    }
+  
+  div{
+    text-align: center;
+  }
+  
+  .foto{
+    max-width: 100%;
+  }
+ div{
+text-align: center;
+color:white
+ }
+ h2{
+  text-align: center;
+ }
+
+div.P{
+max-width:  40%;
+  text-align: left;
+}
+div.M{
+  max-width: 30%;
+  text-align: left;
+}
+div.nashandra{
+  border: gold solid;
+  border-width: 3px;
+}
+.link>a{
+  
+  color:white;
+  background-color: black;
+  padding: 1px;
+  border-radius: 5px;
+}
+h3{
+color: rgb(2, 2, 2);
+font-weight: 900;
+font-style: italic;
+}
+h2{
+  
+}
